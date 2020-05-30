@@ -284,7 +284,7 @@ a.down-btn span.fa.fa-angle-down {
 
 a.btn.go-to-btn{
 	text-transform: uppercase;
-	border: 1px solid #c59a6d;
+	border: 1px solid red;
 	word-spacing: 2px;
 	padding: 7px 30px;
 	border-radius: 2px;
@@ -293,7 +293,7 @@ a.btn.go-to-btn{
 	transition: all 0.5s;
 }
 a.btn.go-to-btn:hover{
-	background: #c59a6d;
+	background: #d10b0b;
 	color: #282f35;
 }
 
@@ -377,7 +377,7 @@ a.btn.read-more-btn:hover{
 
 a.btn.send-btn{
 	text-transform: uppercase;
-	background: #c59a6d;
+	background: #d10b0b;
 	color: #282f35;
 	padding: 15px 35px;
 	border-radius: 0;
@@ -388,23 +388,6 @@ a.btn.send-btn{
 a.btn.send-btn:hover{
 	background: transparent;
 	border: 1px solid #c59a6d;
-	color: #ffffff;
-}
-
-#clients {
-	background: url(../img/bg3.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	text-align: center;
-}
-
-#clients .overlay{
-	background: rgba(34, 34, 34, 0.85);
-	height: auto;
-	min-height: 200px;
-	padding: 8% 0 ;
 	color: #ffffff;
 }
 
@@ -420,55 +403,6 @@ ul.clients li{
 	vertical-align: middle;
 }
 
-.team {
-	border: 1px solid #c3c3c3;
-	padding: 70px 20px;
-	text-align: center;
-	opacity: 0.7;
-	transition: all 0.8s;
-	max-height: 340px;
-	margin-bottom: 30px;
-}
-.team:hover.hire,
-.team.hire{
-	height: 340px;
-	border-color: #c59a6d;
-	color: #c59a6d;
-	opacity: 1;
-}
-
-.team.hire>a{
-	color: #c59a6d;
-}
-.team hr{
-	border-width: 2px;
-	border-color: #dcc2a7;
-}
-.team:hover{
-	opacity: 1;
-	border: 1px solid #222;
-}
-.team img {
-	width: 80px;
-	margin: 0 auto;
-}
-
-#testimonials {
-	background: url(../img/bg4.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	text-align: center;
-}
-
-#testimonials .overlay{
-	background: rgba(34, 34, 34, 0.85);
-	height: auto;
-	min-height: 200px;
-	padding: 5% 0 ;
-	color: #ffffff;
-}
 
 .owl-theme .owl-controls .owl-page span {
 	display: block;
@@ -484,7 +418,7 @@ ul.clients li{
 }
 
 #contact{
-	background: #282f35;
+	background:black;
 	padding: 100px 0;
 	color: #ffffff;
 }
